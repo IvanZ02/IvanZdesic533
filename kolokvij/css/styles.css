@@ -1,0 +1,164 @@
+body
+{
+	font-family: Arial, sans-serif;
+}
+ul 
+{
+	padding:20px; 
+	margin-left: auto; 
+	margin-right:auto;
+	width: 500px;
+} 
+li 
+{	
+	display:inline;
+	background-color: #539987;
+	padding:15px;
+	border: 2px solid #152823;
+	border-radius: 25px;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+li:active 
+{
+	background-color: #2A5045;
+}
+li a 
+{	
+	color:white; 
+	text-transform: uppercase;
+}
+li a:link 
+{
+	text-decoration:none;
+}
+li a:hover 
+{
+	color: #152823;
+}
+section
+{
+	padding-top: 20px;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+.selected
+{
+	text-decoration: underline;
+	color: #152823;
+}
+.background-index
+{
+	background-image: url('../img/background.jpg');
+	background-repeat: no-repeat;
+}
+@font-face 
+{
+    font-family: "MojFont";
+    src:url("../font/IvanZdesic.ttf");
+}
+h1
+{
+	font-family: "MojFont";
+	font-size: 80px;
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #152823;
+}
+h2
+{
+	color: white;
+	margin: 0;
+}
+h3
+{
+	font-size: 27px;
+	margin-bottom: 0;
+	color: #152823;
+}
+h4
+{
+	font-size: 18px;
+	margin-bottom: 0;
+	margin-top: 10px;
+}
+p 
+{
+	line-height: 1.5;
+	margin-top: 0;
+}
+.mt-10
+{
+	margin-top: 10px;
+}
+.mt-50
+{
+	margin-top: 50px;
+}
+.box 
+{
+	width: auto;
+	height: auto;
+	background-color: #2A5045;
+	padding: 25px;
+	color: white;
+	border-radius: 20px;
+}
+.img1
+{
+	width: 500px;
+	border-radius: 20px;
+	border: 5px solid #539987;
+}
+.flex
+{
+	display: flex;
+}
+.img2
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+	margin-top: 10px;
+}
+.video
+{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+.okvir
+{
+	border-radius: 20px;
+}
+.img3
+{
+	width: 350px;
+}
+.img4
+{
+	width: 300px;
+}
+.img5
+{
+	width: 800px;
+}
+.img6
+{
+	height: 345px;
+}
+.img7
+{
+	height: 365px;
+}
+.gap-10
+{
+	gap: 10px;
+}
+.center
+{
+	display: flex;
+	justify-content: center;
+}
